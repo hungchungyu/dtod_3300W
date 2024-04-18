@@ -1,0 +1,481 @@
+
+**** Build of configuration Debug for project DCDC3300 ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../f28004x_codestartbranch.asm"
+Invoking: C2000 Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=3 --fp_mode=relaxed --include_path="D:/Project_Code/dtod_3300W/DCDC3300" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/driverlib/f28004x/driverlib" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/device_support/f28004x/common/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --define=_FLASH -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="f28004x_codestartbranch.d_raw"  "../f28004x_codestartbranch.asm"
+Finished building: "../f28004x_codestartbranch.asm"
+ 
+Building file: "../main.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=3 --fp_mode=relaxed --include_path="D:/Project_Code/dtod_3300W/DCDC3300" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/driverlib/f28004x/driverlib" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/device_support/f28004x/common/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --define=_FLASH -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building file: "../device.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=3 --fp_mode=relaxed --include_path="D:/Project_Code/dtod_3300W/DCDC3300" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/driverlib/f28004x/driverlib" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/device_support/f28004x/common/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --define=_FLASH -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="device.d_raw"  "../device.c"
+Finished building: "../device.c"
+ 
+Building target: "DCDC3300.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=3 --fp_mode=relaxed --define=_FLASH -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"DCDC3300.map" --stack_size=0x200 --warn_sections -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="DCDC3300_linkInfo.xml" --entry_point=code_start --rom_model -o "DCDC3300.out" "./device.obj" "./f28004x_codestartbranch.obj" "./main.obj" "../28004x_cla_flash_lnk.cmd" "../driverlib_eabi.lib"  -llibc.a -l"D:/TICode/C2000Ware/C2000Ware_5_01_00_00/driverlib/f28004x/driverlib/ccs/Debug/driverlib_eabi.lib" 
+<Linking>
+warning #10063-D: entry-point symbol other than "_c_int00" specified:  "code_start"
+Finished building target: "DCDC3300.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project DCDC3300 ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../f28004x_codestartbranch.asm"
+Invoking: C2000 Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=3 --fp_mode=relaxed --include_path="D:/Project_Code/dtod_3300W/DCDC3300" --include_path="D:/TI_Code/C2000Ware_5_01_00_00/device_support/f28004x/headers/include" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/driverlib/f28004x/driverlib" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/device_support/f28004x/common/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --define=_FLASH -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="f28004x_codestartbranch.d_raw"  "../f28004x_codestartbranch.asm"
+Finished building: "../f28004x_codestartbranch.asm"
+ 
+Building file: "../main.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=3 --fp_mode=relaxed --include_path="D:/Project_Code/dtod_3300W/DCDC3300" --include_path="D:/TI_Code/C2000Ware_5_01_00_00/device_support/f28004x/headers/include" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/driverlib/f28004x/driverlib" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/device_support/f28004x/common/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --define=_FLASH -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building file: "../device.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=3 --fp_mode=relaxed --include_path="D:/Project_Code/dtod_3300W/DCDC3300" --include_path="D:/TI_Code/C2000Ware_5_01_00_00/device_support/f28004x/headers/include" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/driverlib/f28004x/driverlib" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/device_support/f28004x/common/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --define=_FLASH -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="device.d_raw"  "../device.c"
+Finished building: "../device.c"
+ 
+Building file: "../f28004x_globalvariabledefs.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=3 --fp_mode=relaxed --include_path="D:/Project_Code/dtod_3300W/DCDC3300" --include_path="D:/TI_Code/C2000Ware_5_01_00_00/device_support/f28004x/headers/include" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/driverlib/f28004x/driverlib" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/device_support/f28004x/common/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --define=_FLASH -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="f28004x_globalvariabledefs.d_raw"  "../f28004x_globalvariabledefs.c"
+Finished building: "../f28004x_globalvariabledefs.c"
+ 
+Building target: "DCDC3300.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=3 --fp_mode=relaxed --define=_FLASH -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"DCDC3300.map" --stack_size=0x200 --warn_sections -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="DCDC3300_linkInfo.xml" --entry_point=code_start --rom_model -o "DCDC3300.out" "./device.obj" "./f28004x_codestartbranch.obj" "./f28004x_globalvariabledefs.obj" "./main.obj" "../28004x_cla_flash_lnk.cmd" "../driverlib_eabi.lib" "../f28004x_headers_nonbios.cmd"  -llibc.a -l"D:/TICode/C2000Ware/C2000Ware_5_01_00_00/driverlib/f28004x/driverlib/ccs/Debug/driverlib_eabi.lib" 
+<Linking>
+warning #10063-D: entry-point symbol other than "_c_int00" specified:  "code_start"
+Finished building target: "DCDC3300.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project DCDC3300 ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../main.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=3 --fp_mode=relaxed --include_path="D:/Project_Code/dtod_3300W/DCDC3300" --include_path="D:/TI_Code/C2000Ware_5_01_00_00/device_support/f28004x/headers/include" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/driverlib/f28004x/driverlib" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/device_support/f28004x/common/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --define=_FLASH -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "DCDC3300.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=3 --fp_mode=relaxed --define=_FLASH -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"DCDC3300.map" --stack_size=0x200 --warn_sections -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="DCDC3300_linkInfo.xml" --entry_point=code_start --rom_model -o "DCDC3300.out" "./device.obj" "./f28004x_codestartbranch.obj" "./f28004x_globalvariabledefs.obj" "./main.obj" "../28004x_cla_flash_lnk.cmd" "../driverlib_eabi.lib" "../f28004x_headers_nonbios.cmd"  -llibc.a -l"D:/TICode/C2000Ware/C2000Ware_5_01_00_00/driverlib/f28004x/driverlib/ccs/Debug/driverlib_eabi.lib" 
+<Linking>
+warning #10063-D: entry-point symbol other than "_c_int00" specified:  "code_start"
+Finished building target: "DCDC3300.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project DCDC3300 ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../C2000.syscfg"
+Invoking: SysConfig
+"C:/ti/ccs1210/ccs/utils/sysconfig_1.14.0/sysconfig_cli.bat" -s "D:/TICode/C2000Ware/C2000Ware_5_01_00_00/.metadata/sdk.json" --script "D:/Project_Code/dtod_3300W/DCDC3300/C2000.syscfg" -o "syscfg" --compiler ccs
+ 
+Usage:
+ cli [-o <dir>] [-s <file>] [-u <string>] [-b <name>] [-d <name>] [-p <name>] [-r <name>] [--treatWarningsAsErrors] [--quiet -q] <script>
+ cli --help
+ cli --version
+ 
+ example: cli -s meta_data/sdk.json -d MSP432P401R scripts/two_uarts.js
+ example: -s sdk.json -d MSP432P401R -o ./display_cfg sdk/cfgs/display.syscfg
+ 
+ Note that the all arguments other than '--help' and '--version' may also be 
+ specified via the script with an embedded @cliArgs comment directive. 
+ E.g. // @cliArgs -d MSP432P401R
+ 
+ If an argument is embedded in a script and explicitly specified via the CLI
+ then precedence is given to the CLI arguments. Additionally, specifying 
+ "--board" or "--device" on the CLI will override any "--board" and "--device"
+  arguments specified in the script.
+ 
+subdir_rules.mk:9: recipe for target 'build-729263055' failed
+Missing argument: --board or --device must be specified
+gmake: *** [build-729263055] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project DCDC3300 ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../C2000.syscfg"
+Invoking: SysConfig
+"C:/ti/ccs1210/ccs/utils/sysconfig_1.14.0/sysconfig_cli.bat" -s "D:/TICode/C2000Ware/C2000Ware_5_01_00_00/.metadata/sdk.json" --script "D:/Project_Code/dtod_3300W/DCDC3300/C2000.syscfg" -o "syscfg" --compiler ccs
+ 
+Usage:
+ cli [-o <dir>] [-s <file>] [-u <string>] [-b <name>] [-d <name>] [-p <name>] [-r <name>] [--treatWarningsAsErrors] [--quiet -q] <script>
+ cli --help
+ cli --version
+ 
+ example: cli -s meta_data/sdk.json -d MSP432P401R scripts/two_uarts.js
+ example: -s sdk.json -d MSP432P401R -o ./display_cfg sdk/cfgs/display.syscfg
+ 
+ Note that the all arguments other than '--help' and '--version' may also be 
+ specified via the script with an embedded @cliArgs comment directive. 
+ E.g. // @cliArgs -d MSP432P401R
+ 
+ If an argument is embedded in a script and explicitly specified via the CLI
+ then precedence is given to the CLI arguments. Additionally, specifying 
+ "--board" or "--device" on the CLI will override any "--board" and "--device"
+  arguments specified in the script.
+ 
+subdir_rules.mk:9: recipe for target 'build-729263055' failed
+Missing argument: --board or --device must be specified
+gmake: *** [build-729263055] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project DCDC3300 ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../C2000.syscfg"
+Invoking: SysConfig
+"C:/ti/ccs1210/ccs/utils/sysconfig_1.14.0/sysconfig_cli.bat" -s "D:/TICode/C2000Ware/C2000Ware_5_01_00_00/.metadata/sdk.json" --script "D:/Project_Code/dtod_3300W/DCDC3300/C2000.syscfg" -o "syscfg" --compiler ccs
+ 
+Usage:
+ cli [-o <dir>] [-s <file>] [-u <string>] [-b <name>] [-d <name>] [-p <name>] [-r <name>] [--treatWarningsAsErrors] [--quiet -q] <script>
+ cli --help
+ cli --version
+ 
+ example: cli -s meta_data/sdk.json -d MSP432P401R scripts/two_uarts.js
+ example: -s sdk.json -d MSP432P401R -o ./display_cfg sdk/cfgs/display.syscfg
+ 
+ Note that the all arguments other than '--help' and '--version' may also be 
+ specified via the script with an embedded @cliArgs comment directive. 
+ E.g. // @cliArgs -d MSP432P401R
+ 
+ If an argument is embedded in a script and explicitly specified via the CLI
+ then precedence is given to the CLI arguments. Additionally, specifying 
+ "--board" or "--device" on the CLI will override any "--board" and "--device"
+  arguments specified in the script.
+ 
+subdir_rules.mk:9: recipe for target 'build-729263055' failed
+Missing argument: --board or --device must be specified
+gmake: *** [build-729263055] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project DCDC3300 ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../C2000.syscfg"
+Invoking: SysConfig
+"C:/ti/ccs1210/ccs/utils/sysconfig_1.14.0/sysconfig_cli.bat" -s "D:/TICode/C2000Ware/C2000Ware_5_01_00_00/.metadata/sdk.json" --script "D:/Project_Code/dtod_3300W/DCDC3300/C2000.syscfg" -o "syscfg" --compiler ccs
+ 
+Usage:
+ cli [-o <dir>] [-s <file>] [-u <string>] [-b <name>] [-d <name>] [-p <name>] [-r <name>] [--treatWarningsAsErrors] [--quiet -q] <script>
+ cli --help
+ cli --version
+ 
+ example: cli -s meta_data/sdk.json -d MSP432P401R scripts/two_uarts.js
+ example: -s sdk.json -d MSP432P401R -o ./display_cfg sdk/cfgs/display.syscfg
+ 
+ Note that the all arguments other than '--help' and '--version' may also be 
+ specified via the script with an embedded @cliArgs comment directive. 
+ E.g. // @cliArgs -d MSP432P401R
+ 
+ If an argument is embedded in a script and explicitly specified via the CLI
+ then precedence is given to the CLI arguments. Additionally, specifying 
+ "--board" or "--device" on the CLI will override any "--board" and "--device"
+  arguments specified in the script.
+ 
+subdir_rules.mk:9: recipe for target 'build-729263055' failed
+Missing argument: --board or --device must be specified
+gmake: *** [build-729263055] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project DCDC3300 ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../f28004x_codestartbranch.asm"
+Invoking: C2000 Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=3 --fp_mode=relaxed --include_path="D:/Project_Code/dtod_3300W/DCDC3300" --include_path="D:/TI_Code/C2000Ware_5_01_00_00/device_support/f28004x/headers/include" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/driverlib/f28004x/driverlib" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/device_support/f28004x/common/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --define=_FLASH -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="f28004x_codestartbranch.d_raw" --include_path="D:/Project_Code/dtod_3300W/DCDC3300/Debug/syscfg"  "../f28004x_codestartbranch.asm"
+Finished building: "../f28004x_codestartbranch.asm"
+ 
+Building file: "../main.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=3 --fp_mode=relaxed --include_path="D:/Project_Code/dtod_3300W/DCDC3300" --include_path="D:/TI_Code/C2000Ware_5_01_00_00/device_support/f28004x/headers/include" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/driverlib/f28004x/driverlib" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/device_support/f28004x/common/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --define=_FLASH -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw" --include_path="D:/Project_Code/dtod_3300W/DCDC3300/Debug/syscfg"  "../main.c"
+Finished building: "../main.c"
+ 
+Building file: "../device.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=3 --fp_mode=relaxed --include_path="D:/Project_Code/dtod_3300W/DCDC3300" --include_path="D:/TI_Code/C2000Ware_5_01_00_00/device_support/f28004x/headers/include" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/driverlib/f28004x/driverlib" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/device_support/f28004x/common/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --define=_FLASH -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="device.d_raw" --include_path="D:/Project_Code/dtod_3300W/DCDC3300/Debug/syscfg"  "../device.c"
+Finished building: "../device.c"
+ 
+Building file: "../f28004x_globalvariabledefs.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=3 --fp_mode=relaxed --include_path="D:/Project_Code/dtod_3300W/DCDC3300" --include_path="D:/TI_Code/C2000Ware_5_01_00_00/device_support/f28004x/headers/include" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/driverlib/f28004x/driverlib" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/device_support/f28004x/common/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --define=_FLASH -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="f28004x_globalvariabledefs.d_raw" --include_path="D:/Project_Code/dtod_3300W/DCDC3300/Debug/syscfg"  "../f28004x_globalvariabledefs.c"
+Finished building: "../f28004x_globalvariabledefs.c"
+ 
+Building target: "DCDC3300.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=3 --fp_mode=relaxed --define=_FLASH -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"DCDC3300.map" --stack_size=0x200 --warn_sections -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="DCDC3300_linkInfo.xml" --entry_point=code_start --rom_model -o "DCDC3300.out" "./device.obj" "./f28004x_codestartbranch.obj" "./f28004x_globalvariabledefs.obj" "./main.obj" "../28004x_cla_flash_lnk.cmd" "../driverlib_eabi.lib" "../f28004x_headers_nonbios.cmd"  -llibc.a -l"D:/TICode/C2000Ware/C2000Ware_5_01_00_00/driverlib/f28004x/driverlib/ccs/Debug/driverlib_eabi.lib" 
+<Linking>
+warning #10063-D: entry-point symbol other than "_c_int00" specified:  "code_start"
+Finished building target: "DCDC3300.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project DCDC3300 ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'DCDC3300.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project DCDC3300 ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'DCDC3300.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project DCDC3300 ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'DCDC3300.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project DCDC3300 ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'DCDC3300.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project DCDC3300 ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'DCDC3300.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project DCDC3300 ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'DCDC3300.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project DCDC3300 ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'DCDC3300.out' is up to date.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project DCDC3300 ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 20 clean -O 
+ 
+DEL /F  "syscfg\error.h"  "DCDC3300.hex"  "DCDC3300.out" 
+DEL /F "device.obj" "f28004x_codestartbranch.obj" "f28004x_globalvariabledefs.obj" "main.obj" 
+DEL /F "device.d" "f28004x_globalvariabledefs.d" "main.d" 
+DEL /F "f28004x_codestartbranch.d" 
+RMDIR /S/Q  "syscfg\" 
+系統找不到指定的檔案。
+找不到 D:\Project_Code\dtod_3300W\DCDC3300\Debug\f28004x_codestartbranch.d
+系統找不到指定的檔案。
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project DCDC3300 ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../C2000.syscfg"
+Invoking: SysConfig
+"C:/ti/ccs1210/ccs/utils/sysconfig_1.14.0/sysconfig_cli.bat" -s "D:/TICode/C2000Ware/C2000Ware_5_01_00_00/.metadata/sdk.json" --script "D:/Project_Code/dtod_3300W/DCDC3300/C2000.syscfg" -o "syscfg" --compiler ccs
+ 
+Usage:
+ cli [-o <dir>] [-s <file>] [-u <string>] [-b <name>] [-d <name>] [-p <name>] [-r <name>] [--treatWarningsAsErrors] [--quiet -q] <script>
+ cli --help
+ cli --version
+ 
+ example: cli -s meta_data/sdk.json -d MSP432P401R scripts/two_uarts.js
+ example: -s sdk.json -d MSP432P401R -o ./display_cfg sdk/cfgs/display.syscfg
+ 
+ Note that the all arguments other than '--help' and '--version' may also be 
+ specified via the script with an embedded @cliArgs comment directive. 
+ E.g. // @cliArgs -d MSP432P401R
+ 
+ If an argument is embedded in a script and explicitly specified via the CLI
+ then precedence is given to the CLI arguments. Additionally, specifying 
+ "--board" or "--device" on the CLI will override any "--board" and "--device"
+  arguments specified in the script.
+ 
+subdir_rules.mk:9: recipe for target 'build-729263055' failed
+Missing argument: --board or --device must be specified
+gmake: *** [build-729263055] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project DCDC3300 ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../C2000.syscfg"
+Invoking: SysConfig
+"C:/ti/ccs1210/ccs/utils/sysconfig_1.14.0/sysconfig_cli.bat" -s "D:/TI_Code/C2000Ware_5_01_00_00/.metadata/sdk.json" -d "F28004x" --script "D:/Project_Code/dtod_3300W/DCDC3300/C2000.syscfg" -o "syscfg" --compiler ccs
+Running script...
+Validating...
+Generating Code (C2000.syscfg)...
+Writing D:\Project_Code\dtod_3300W\DCDC3300\Debug\syscfg\board.c...
+Writing D:\Project_Code\dtod_3300W\DCDC3300\Debug\syscfg\board.h...
+Writing D:\Project_Code\dtod_3300W\DCDC3300\Debug\syscfg\board.cmd.genlibs...
+Writing D:\Project_Code\dtod_3300W\DCDC3300\Debug\syscfg\board.opt...
+Writing D:\Project_Code\dtod_3300W\DCDC3300\Debug\syscfg\pinmux.csv...
+Writing D:\Project_Code\dtod_3300W\DCDC3300\Debug\syscfg\c2000ware_libraries.cmd.genlibs...
+Writing D:\Project_Code\dtod_3300W\DCDC3300\Debug\syscfg\c2000ware_libraries.opt...
+Writing D:\Project_Code\dtod_3300W\DCDC3300\Debug\syscfg\c2000ware_libraries.c...
+Writing D:\Project_Code\dtod_3300W\DCDC3300\Debug\syscfg\c2000ware_libraries.h...
+Writing D:\Project_Code\dtod_3300W\DCDC3300\Debug\syscfg\clocktree.h...
+Finished building: "../C2000.syscfg"
+ 
+Building file: "../f28004x_codestartbranch.asm"
+Invoking: C2000 Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=3 --fp_mode=relaxed --include_path="D:/Project_Code/dtod_3300W/DCDC3300" --include_path="D:/TI_Code/C2000Ware_5_01_00_00/device_support/f28004x/headers/include" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/driverlib/f28004x/driverlib" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/device_support/f28004x/common/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --define=_FLASH -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="f28004x_codestartbranch.d_raw" --include_path="D:/Project_Code/dtod_3300W/DCDC3300/Debug/syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "../f28004x_codestartbranch.asm"
+Finished building: "../f28004x_codestartbranch.asm"
+ 
+Building file: "syscfg/board.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=3 --fp_mode=relaxed --include_path="D:/Project_Code/dtod_3300W/DCDC3300" --include_path="D:/TI_Code/C2000Ware_5_01_00_00/device_support/f28004x/headers/include" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/driverlib/f28004x/driverlib" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/device_support/f28004x/common/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --define=_FLASH -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="syscfg/board.d_raw" --include_path="D:/Project_Code/dtod_3300W/DCDC3300/Debug/syscfg" --obj_directory="syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "syscfg/board.c"
+Finished building: "syscfg/board.c"
+ 
+Building file: "syscfg/c2000ware_libraries.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=3 --fp_mode=relaxed --include_path="D:/Project_Code/dtod_3300W/DCDC3300" --include_path="D:/TI_Code/C2000Ware_5_01_00_00/device_support/f28004x/headers/include" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/driverlib/f28004x/driverlib" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/device_support/f28004x/common/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --define=_FLASH -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="syscfg/c2000ware_libraries.d_raw" --include_path="D:/Project_Code/dtod_3300W/DCDC3300/Debug/syscfg" --obj_directory="syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "syscfg/c2000ware_libraries.c"
+Finished building: "syscfg/c2000ware_libraries.c"
+ 
+Building file: "../main.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=3 --fp_mode=relaxed --include_path="D:/Project_Code/dtod_3300W/DCDC3300" --include_path="D:/TI_Code/C2000Ware_5_01_00_00/device_support/f28004x/headers/include" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/driverlib/f28004x/driverlib" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/device_support/f28004x/common/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --define=_FLASH -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw" --include_path="D:/Project_Code/dtod_3300W/DCDC3300/Debug/syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "../main.c"
+Finished building: "../main.c"
+ 
+Building file: "../device.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=3 --fp_mode=relaxed --include_path="D:/Project_Code/dtod_3300W/DCDC3300" --include_path="D:/TI_Code/C2000Ware_5_01_00_00/device_support/f28004x/headers/include" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/driverlib/f28004x/driverlib" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/device_support/f28004x/common/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --define=_FLASH -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="device.d_raw" --include_path="D:/Project_Code/dtod_3300W/DCDC3300/Debug/syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "../device.c"
+Finished building: "../device.c"
+ 
+Building file: "../f28004x_globalvariabledefs.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=3 --fp_mode=relaxed --include_path="D:/Project_Code/dtod_3300W/DCDC3300" --include_path="D:/TI_Code/C2000Ware_5_01_00_00/device_support/f28004x/headers/include" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/driverlib/f28004x/driverlib" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/device_support/f28004x/common/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --define=_FLASH -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="f28004x_globalvariabledefs.d_raw" --include_path="D:/Project_Code/dtod_3300W/DCDC3300/Debug/syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "../f28004x_globalvariabledefs.c"
+Finished building: "../f28004x_globalvariabledefs.c"
+ 
+Building target: "DCDC3300.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=3 --fp_mode=relaxed --define=_FLASH -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"DCDC3300.map" --stack_size=0x200 --warn_sections -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="DCDC3300_linkInfo.xml" --entry_point=code_start --rom_model -o "DCDC3300.out" "./syscfg/board.obj" "./syscfg/c2000ware_libraries.obj" "./device.obj" "./f28004x_codestartbranch.obj" "./f28004x_globalvariabledefs.obj" "./main.obj" "../28004x_cla_flash_lnk.cmd" "../driverlib_eabi.lib" "../f28004x_headers_nonbios.cmd"  -llibc.a -l"D:/TICode/C2000Ware/C2000Ware_5_01_00_00/driverlib/f28004x/driverlib/ccs/Debug/driverlib_eabi.lib" 
+<Linking>
+warning #10063-D: entry-point symbol other than "_c_int00" specified:  "code_start"
+Finished building target: "DCDC3300.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project DCDC3300 ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../C2000.syscfg"
+Invoking: SysConfig
+"C:/ti/ccs1210/ccs/utils/sysconfig_1.14.0/sysconfig_cli.bat" -s "D:/TI_Code/C2000Ware_5_01_00_00/.metadata/sdk.json" -d "F28004x" --script "D:/Project_Code/dtod_3300W/DCDC3300/C2000.syscfg" -o "syscfg" --compiler ccs
+Running script...
+Validating...
+Generating Code (C2000.syscfg)...
+Writing D:\Project_Code\dtod_3300W\DCDC3300\Debug\syscfg\board.c...
+Writing D:\Project_Code\dtod_3300W\DCDC3300\Debug\syscfg\board.h...
+Writing D:\Project_Code\dtod_3300W\DCDC3300\Debug\syscfg\board.cmd.genlibs...
+Writing D:\Project_Code\dtod_3300W\DCDC3300\Debug\syscfg\board.opt...
+Writing D:\Project_Code\dtod_3300W\DCDC3300\Debug\syscfg\pinmux.csv...
+Writing D:\Project_Code\dtod_3300W\DCDC3300\Debug\syscfg\c2000ware_libraries.cmd.genlibs...
+Writing D:\Project_Code\dtod_3300W\DCDC3300\Debug\syscfg\c2000ware_libraries.opt...
+Writing D:\Project_Code\dtod_3300W\DCDC3300\Debug\syscfg\c2000ware_libraries.c...
+Writing D:\Project_Code\dtod_3300W\DCDC3300\Debug\syscfg\c2000ware_libraries.h...
+Writing D:\Project_Code\dtod_3300W\DCDC3300\Debug\syscfg\clocktree.h...
+Finished building: "../C2000.syscfg"
+ 
+Building file: "../f28004x_codestartbranch.asm"
+Invoking: C2000 Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=3 --fp_mode=relaxed --include_path="D:/Project_Code/dtod_3300W/DCDC3300" --include_path="D:/TI_Code/C2000Ware_5_01_00_00/device_support/f28004x/headers/include" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/driverlib/f28004x/driverlib" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/device_support/f28004x/common/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --define=_FLASH -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="f28004x_codestartbranch.d_raw" --include_path="D:/Project_Code/dtod_3300W/DCDC3300/Debug/syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "../f28004x_codestartbranch.asm"
+Finished building: "../f28004x_codestartbranch.asm"
+ 
+Building file: "../device.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=3 --fp_mode=relaxed --include_path="D:/Project_Code/dtod_3300W/DCDC3300" --include_path="D:/TI_Code/C2000Ware_5_01_00_00/device_support/f28004x/headers/include" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/driverlib/f28004x/driverlib" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/device_support/f28004x/common/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --define=_FLASH -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="device.d_raw" --include_path="D:/Project_Code/dtod_3300W/DCDC3300/Debug/syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "../device.c"
+Finished building: "../device.c"
+ 
+Building file: "../main.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=3 --fp_mode=relaxed --include_path="D:/Project_Code/dtod_3300W/DCDC3300" --include_path="D:/TI_Code/C2000Ware_5_01_00_00/device_support/f28004x/headers/include" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/driverlib/f28004x/driverlib" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/device_support/f28004x/common/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --define=_FLASH -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw" --include_path="D:/Project_Code/dtod_3300W/DCDC3300/Debug/syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "../main.c"
+Finished building: "../main.c"
+ 
+Building file: "syscfg/board.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=3 --fp_mode=relaxed --include_path="D:/Project_Code/dtod_3300W/DCDC3300" --include_path="D:/TI_Code/C2000Ware_5_01_00_00/device_support/f28004x/headers/include" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/driverlib/f28004x/driverlib" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/device_support/f28004x/common/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --define=_FLASH -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="syscfg/board.d_raw" --include_path="D:/Project_Code/dtod_3300W/DCDC3300/Debug/syscfg" --obj_directory="syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "syscfg/board.c"
+Finished building: "syscfg/board.c"
+ 
+Building file: "syscfg/c2000ware_libraries.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=3 --fp_mode=relaxed --include_path="D:/Project_Code/dtod_3300W/DCDC3300" --include_path="D:/TI_Code/C2000Ware_5_01_00_00/device_support/f28004x/headers/include" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/driverlib/f28004x/driverlib" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/device_support/f28004x/common/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --define=_FLASH -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="syscfg/c2000ware_libraries.d_raw" --include_path="D:/Project_Code/dtod_3300W/DCDC3300/Debug/syscfg" --obj_directory="syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "syscfg/c2000ware_libraries.c"
+Finished building: "syscfg/c2000ware_libraries.c"
+ 
+Building file: "../f28004x_globalvariabledefs.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=3 --fp_mode=relaxed --include_path="D:/Project_Code/dtod_3300W/DCDC3300" --include_path="D:/TI_Code/C2000Ware_5_01_00_00/device_support/f28004x/headers/include" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/driverlib/f28004x/driverlib" --include_path="D:/TICode/C2000Ware/C2000Ware_5_01_00_00/device_support/f28004x/common/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --define=_FLASH -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="f28004x_globalvariabledefs.d_raw" --include_path="D:/Project_Code/dtod_3300W/DCDC3300/Debug/syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "../f28004x_globalvariabledefs.c"
+Finished building: "../f28004x_globalvariabledefs.c"
+ 
+Building target: "DCDC3300.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=3 --fp_mode=relaxed --define=_FLASH -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"DCDC3300.map" --stack_size=0x200 --warn_sections -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="DCDC3300_linkInfo.xml" --entry_point=code_start --rom_model -o "DCDC3300.out" "./syscfg/board.obj" "./syscfg/c2000ware_libraries.obj" "./device.obj" "./f28004x_codestartbranch.obj" "./f28004x_globalvariabledefs.obj" "./main.obj" "../28004x_cla_flash_lnk.cmd" "../driverlib_eabi.lib" "../f28004x_headers_nonbios.cmd"  -llibc.a -l"D:/TICode/C2000Ware/C2000Ware_5_01_00_00/driverlib/f28004x/driverlib/ccs/Debug/driverlib_eabi.lib" 
+<Linking>
+warning #10063-D: entry-point symbol other than "_c_int00" specified:  "code_start"
+Finished building target: "DCDC3300.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project DCDC3300 ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'DCDC3300.out' is up to date.
+
+**** Build Finished ****
