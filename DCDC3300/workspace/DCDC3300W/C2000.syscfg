@@ -1,0 +1,46 @@
+/**
+ * These arguments were used when this file was generated. They will be automatically applied on subsequent loads
+ * via the GUI or CLI. Run CLI with '--help' for additional information on how to override these arguments.
+ * @cliArgs --device "F28004x" --package "F28004x_100PZ" --part "F28004x_100PZ" --context "system" --product "C2000WARE@5.01.00.00"
+ * @versions {"tool":"1.19.0+3426"}
+ */
+
+/**
+ * Import the modules used in this configuration.
+ */
+const epwm  = scripting.addModule("/driverlib/epwm.js", {}, false);
+const epwm1 = epwm.addInstance();
+const gpio  = scripting.addModule("/driverlib/gpio.js", {}, false);
+const gpio1 = gpio.addInstance();
+
+/**
+ * Write custom configuration values to the imported modules.
+ */
+const multiplier2         = system.clockTree["PLL_IMULT"];
+multiplier2.multiplyValue = 10;
+
+const mux2       = system.clockTree["OSCCLKSRCSEL"];
+mux2.inputSelect = "X1_XTAL";
+
+epwm1.$name                                                    = "myEPWM0";
+epwm1.epwmTimebase_hsClockDiv                                  = "EPWM_HSCLOCK_DIVIDER_1";
+epwm1.epwmTimebase_period                                      = 500;
+epwm1.epwmCounterCompare_cmpA                                  = 250;
+epwm1.epwmTimebase_counterMode                                 = "EPWM_COUNTER_MODE_UP";
+epwm1.epwmActionQualifier_EPWM_AQ_OUTPUT_A_ON_TIMEBASE_UP_CMPA = "EPWM_AQ_OUTPUT_LOW";
+epwm1.epwmActionQualifier_EPWM_AQ_OUTPUT_A_ON_TIMEBASE_ZERO    = "EPWM_AQ_OUTPUT_HIGH";
+epwm1.epwm.epwm_aPin.$assign                                   = "GPIO8";
+
+gpio1.$name             = "myGPIO0";
+gpio1.direction         = "GPIO_DIR_MODE_OUT";
+gpio1.writeInitialValue = true;
+gpio1.initialValue      = 1;
+gpio1.gpioPin.$assign   = "GPIO10";
+
+/**
+ * Pinmux solution for unlocked pins/peripherals. This ensures that minor changes to the automatic solver in a future
+ * version of the tool will not impact the pinmux you originally saw.  These lines can be completely deleted in order to
+ * re-solve from scratch.
+ */
+epwm1.epwm.$suggestSolution           = "EPWM5";
+epwm1.epwm.epwm_bPin.$suggestSolution = "GPIO17";
