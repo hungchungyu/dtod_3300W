@@ -3,7 +3,7 @@
     "name": "C2000WARE",
     "displayName": "C2000 SysConfig",
     "version": "5.01.00.00",
-    "path": "D:\\TI_Code\\C2000Ware_5_01_00_00\\.metadata\\sdk.json",
+    "path": "D:\\TICode\\C2000Ware\\C2000Ware_5_01_00_00\\.metadata\\sdk.json",
     "contexts": {
       "F2837xD": [
         {
