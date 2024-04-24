@@ -44,6 +44,7 @@
 								<option id="com.ti.ccstudio.buildDefinitions.C2000_22.6.compilerID.FP_MODE.2069887953" name="Floating Point mode (--fp_mode)" superClass="com.ti.ccstudio.buildDefinitions.C2000_22.6.compilerID.FP_MODE" value="com.ti.ccstudio.buildDefinitions.C2000_22.6.compilerID.FP_MODE.relaxed" valueType="enumerated"/>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.C2000_22.6.compilerID.INCLUDE_PATH.742611205" name="Add dir to #include search path (--include_path, -I)" superClass="com.ti.ccstudio.buildDefinitions.C2000_22.6.compilerID.INCLUDE_PATH" valueType="includePath">
 									<listOptionValue builtIn="false" value="${PROJECT_LOC}/headers/appl"/>
+									<listOptionValue builtIn="false" value="${PROJECT_LOC}/headers/math_ctrl_lib"/>
 									<listOptionValue builtIn="false" value="${PROJECT_LOC}/headers/f28004x_reg"/>
 									<listOptionValue builtIn="false" value="${PROJECT_LOC}/headers/hal_config/peripheral_config"/>
 									<listOptionValue builtIn="false" value="${PROJECT_LOC}/headers/hal_config/system_config"/>

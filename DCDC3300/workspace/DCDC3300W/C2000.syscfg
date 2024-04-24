@@ -8,10 +8,15 @@
 /**
  * Import the modules used in this configuration.
  */
-const epwm  = scripting.addModule("/driverlib/epwm.js", {}, false);
-const epwm1 = epwm.addInstance();
-const gpio  = scripting.addModule("/driverlib/gpio.js", {}, false);
-const gpio1 = gpio.addInstance();
+const cmpss     = scripting.addModule("/driverlib/cmpss.js", {}, false);
+const cmpss1    = cmpss.addInstance();
+const cputimer  = scripting.addModule("/driverlib/cputimer.js", {}, false);
+const cputimer1 = cputimer.addInstance();
+const epwm      = scripting.addModule("/driverlib/epwm.js", {}, false);
+const epwm1     = epwm.addInstance();
+const gpio      = scripting.addModule("/driverlib/gpio.js", {}, false);
+const gpio1     = gpio.addInstance();
+const sysctl    = scripting.addModule("/driverlib/sysctl.js");
 
 /**
  * Write custom configuration values to the imported modules.
@@ -21,6 +26,12 @@ multiplier2.multiplyValue = 10;
 
 const mux2       = system.clockTree["OSCCLKSRCSEL"];
 mux2.inputSelect = "X1_XTAL";
+
+cmpss1.$name = "myCMPSS0";
+
+cputimer1.$name       = "myCPUTIMER0";
+cputimer1.startTimer  = true;
+cputimer1.timerPeriod = 100;
 
 epwm1.$name                                                    = "myEPWM0";
 epwm1.epwmTimebase_hsClockDiv                                  = "EPWM_HSCLOCK_DIVIDER_1";
@@ -32,10 +43,12 @@ epwm1.epwmActionQualifier_EPWM_AQ_OUTPUT_A_ON_TIMEBASE_ZERO    = "EPWM_AQ_OUTPUT
 epwm1.epwm.epwm_aPin.$assign                                   = "GPIO8";
 
 gpio1.$name             = "myGPIO0";
-gpio1.direction         = "GPIO_DIR_MODE_OUT";
 gpio1.writeInitialValue = true;
+gpio1.padConfig         = "PULLUP";
+gpio1.qualMode          = "GPIO_QUAL_6SAMPLE";
 gpio1.initialValue      = 1;
-gpio1.gpioPin.$assign   = "GPIO10";
+gpio1.direction         = "GPIO_DIR_MODE_OUT";
+gpio1.gpioPin.$assign   = "GPIO11";
 
 /**
  * Pinmux solution for unlocked pins/peripherals. This ensures that minor changes to the automatic solver in a future
