@@ -7,7 +7,7 @@ void Init_GPIO(void)
 
     /*GPIO output*/
     GPIO_setPinConfig(GPIO_10_GPIO10);                  // GPIO Pinmux
-    GPIO_writePin(GPIO_10, 1);                          // Initial GPIO value
+    GPIO_writePin(GPIO_10, 0);                          // Initial GPIO value
     GPIO_setPadConfig(GPIO_10, GPIO_PIN_TYPE_STD);      // Push-pull or Open-drain
     GPIO_setQualificationMode(GPIO_10, GPIO_QUAL_SYNC);
     GPIO_setDirectionMode(GPIO_10, GPIO_DIR_MODE_OUT);  //GPIO output or input

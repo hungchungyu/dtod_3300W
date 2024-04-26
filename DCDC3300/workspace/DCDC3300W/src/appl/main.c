@@ -60,24 +60,21 @@ int main(void)
     //
     Interrupt_initVectorTable();
 
+    Init_System();
     Init_Peripherals();
 
-    Init_CPUTimer();
-
-    state_InitStateMachine();
-
-//    EALLOW;
-//    SYSCTL_init();
-//    EDIS;
 
     while(1)
     {
 
-        cnt = CPUTimer_getTimerCount(CPUTIMER0_BASE);
-        if(CPUTimer_getTimerCount(CPUTIMER0_BASE)== 0)
+        if(CPUTimer_getTimerOverflowStatus(CPUTIMER0_BASE)==1)
         {
+            CPUTimer_clearOverflowFlag(CPUTIMER0_BASE);
+            EALLOW;
             GPIO_togglePin(10);
+            EDIS;
         }
+
 
     }
 }
